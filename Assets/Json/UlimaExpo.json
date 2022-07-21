@@ -1,0 +1,876 @@
+{
+   "id":"unity-poster-mobile",
+   "events":[
+    {
+      "id": 10,
+      "title": "IV Concurso de Pósteres",
+      "subtitle": "Programa de Estudios Generales",
+      "day": 22,
+      "month": "nov",
+      "fechaInicio": "19/nov/2021",
+      "fechaFin": "30/nov/2021",
+      "year": "2021",
+      "image": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/Ac.51.015.2022/EG-miniatura.jpeg",
+      "private": false,
+      "environment": [
+        {
+          "id_environment": 0,
+          "zoom": [
+          ],
+          "sound": [
+            {
+              "position": {
+                "x": -0.16,
+                "y": 5.79,
+                "z": 4.76
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "color": "",
+              "texture": ""
+            }
+          ],
+          "videos": [
+          ],
+          "doors": [
+          ],
+          "walls": [
+            {
+                "position": {
+                    "x": 15,
+                    "y": 3,
+                    "z": 2.25
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.5,
+                    "y": 6,
+                    "z": 25
+                },
+                "color": "",
+                "texture": "",
+                "text": "",
+                "textColor": ""
+            },
+
+
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0.8,
+                    "z": 4.19
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 3,
+                    "y": 3,
+                    "z": 1
+                },
+                "color": "#FFD700",
+                "texture": "",
+                "text": "",
+                "textColor": ""
+            },
+            {
+                "position": {
+                    "x": -2.98,
+                    "y": 0.6,
+                    "z": 4.19
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 3,
+                    "y": 3,
+                    "z": 1
+                },
+                "color": "#BEBEBE",
+                "texture": "",
+                "text": "",
+                "textColor": ""
+            },
+            {
+                "position": {
+                    "x": 2.98,
+                    "y": 0.4,
+                    "z": 4.19
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 3,
+                    "y": 3,
+                    "z": 1
+                },
+                "color": "#CD7F32",
+                "texture": "",
+                "text": "",
+                "textColor": ""
+            },
+
+
+            {
+                "position": {
+                    "x": -15,
+                    "y": 3,
+                    "z": 2.25
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.5,
+                    "y": 6,
+                    "z": 25
+                },
+                "color": "",
+                "texture": "",
+                "text": "",
+                "textColor": ""
+            },
+            {
+                "position": {
+                    "x": 0,
+                    "y": 3,
+                    "z": -10
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 30,
+                    "y": 6,
+                    "z": 0.5
+                },
+                "color": "",
+                "texture": "",
+                "text": "",
+                "textColor": ""
+            },
+            {
+                "position": {
+                    "x": 0,
+                    "y": 3,
+                    "z": 15
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 30,
+                    "y": 6,
+                    "z": 0.5
+                },
+                "color": "",
+                "texture": "",
+                "text": "",
+                "textColor": ""
+            },
+            {
+                "position": {
+                    "x": 0,
+                    "y": 3,
+                    "z": 4.71
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 15,
+                    "y": 6,
+                    "z": 0.5
+                },
+                "color": "",
+                "texture": "",
+                "text": "",
+                "textColor": ""
+            },
+            {
+                "position": {
+                    "x": 4.5,
+                    "y": 3,
+                    "z": -9.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.5,
+                    "y": 6,
+                    "z": 10
+                },
+                "color": "",
+                "texture": "",
+                "text": "",
+                "textColor": ""
+            },
+            {
+                "position": {
+                    "x": -4.5,
+                    "y": 3,
+                    "z": -9.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.5,
+                    "y": 6,
+                    "z": 10
+                },
+                "color": "",
+                "texture": "",
+                "text": "",
+                "textColor": ""
+            },
+            {
+                "position": {
+                    "x": -9.75,
+                    "y": 3,
+                    "z": -4.75
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 10,
+                    "y": 6,
+                    "z": 0.5
+                },
+                "color": "",
+                "texture": "",
+                "text": "",
+                "textColor": ""
+            },
+            {
+                "position": {
+                    "x": 9.75,
+                    "y": 3,
+                    "z": -4.75
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 10,
+                    "y": 6,
+                    "z": 0.5
+                },
+                "color": "",
+                "texture": "",
+                "text": "",
+                "textColor": ""
+            }
+          ],
+          "panel": [
+            {
+                "position": {
+                    "x": -14.7,
+                    "y": 2.2,
+                    "z": 7.25
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": -90,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.8,
+                    "y": 0.6,
+                    "z": 0.2
+                },
+                "color": "#FFFFFF",
+                "texture": "",
+                "text": "2",
+                "textColor": ""
+            },
+            {
+                "position": {
+                    "x": -14.7,
+                    "y": 2.2,
+                    "z": -1.75
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": -90,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.8,
+                    "y": 0.6,
+                    "z": 0.2
+                },
+                "color": "#FFFFFF",
+                "texture": "",
+                "text": "1",
+                "textColor": ""
+            },
+            {
+                "position": {
+                    "x": -12.25,
+                    "y": 2.2,
+                    "z": 14.7
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.8,
+                    "y": 0.6,
+                    "z": 0.2
+                },
+                "color": "#FFFFFF",
+                "texture": "",
+                "text": "3",
+                "textColor": ""
+            },
+            {
+                "position": {
+                    "x": -5.25,
+                    "y": 2.2,
+                    "z": 14.7
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.8,
+                    "y": 0.6,
+                    "z": 0.2
+                },
+                "color": "#FFFFFF",
+                "texture": "",
+                "text": "4",
+                "textColor": ""
+            },
+            {
+                "position": {
+                    "x": 1.75,
+                    "y": 2.2,
+                    "z": 14.7
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.8,
+                    "y": 0.6,
+                    "z": 0.2
+                },
+                "color": "#FFFFFF",
+                "texture": "",
+                "text": "5",
+                "textColor": ""
+            },
+            {
+                "position": {
+                    "x": 8.75,
+                    "y": 2.2,
+                    "z": 14.7
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.8,
+                    "y": 0.6,
+                    "z": 0.2
+                },
+                "color": "#FFFFFF",
+                "texture": "",
+                "text": "6",
+                "textColor": ""
+            },
+            {
+                "position": {
+                    "x": 14.7,
+                    "y": 2.2,
+                    "z": 10.75
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.8,
+                    "y": 0.6,
+                    "z": 0.2
+                },
+                "color": "#FFFFFF",
+                "texture": "",
+                "text": "7",
+                "textColor": ""
+            },
+            {
+                "position": {
+                    "x": 14.7,
+                    "y": 2.2,
+                    "z": 1.75
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.8,
+                    "y": 0.6,
+                    "z": 0.2
+                },
+                "color": "#FFFFFF",
+                "texture": "",
+                "text": "8",
+                "textColor": ""
+            }
+          ],
+          "floors": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0.03999996,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 5.153258,
+                    "y": 4.28474,
+                    "z": 5.091558
+                },
+                "color": "",
+                "texture": ""
+            }
+          ],
+          "roof": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": 5.472,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 180
+                },
+                "scale": {
+                    "x": 5.482084,
+                    "y": 4.558147,
+                    "z": 5.416446
+                },
+                "color": "",
+                "texture": ""
+            }
+          ],
+          "stand": [],
+          "posters": [
+          {
+              "position": {
+                  "x": 0,
+                  "y": 3.8,
+                  "z": 4.3
+              },
+              "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+              },
+              "scale": {
+                  "x": 0.2000004,
+                  "y": 2.7204,
+                  "z": 2.10722
+              },
+              "info": {
+                  "name": "posterPortada",
+                  "image": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/Ac.51.015.2022/Poster2.png",
+                  "imageAnterior": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/AC.51.021.2021/EG-bienvenida.jpeg",
+                  "pdf": "",
+                  "foco":true
+              }
+          },
+          {
+            "position": {
+                "x": -2.9,
+                "y": 3.6,
+                "z": 4.3
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "scale": {
+                "x": 0.2000004,
+                "y": 2.7204,
+                "z": 2.10722
+            },
+            "info": {
+                "name": "posterPortada",
+                "image": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/Ac.51.015.2022/Poster6.png",
+                "imageAnterior": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/AC.51.021.2021/EG-bienvenida.jpeg",
+                "pdf": "",
+                "foco":true
+            }
+        },
+        {
+            "position": {
+                "x": 2.9,
+                "y": 3.4,
+                "z": 4.3
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "scale": {
+                "x": 0.2000004,
+                "y": 2.7204,
+                "z": 2.10722
+            },
+            "info": {
+                "name": "posterPortada",
+                "image": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/Ac.51.015.2022/Poster8.png",
+                "imageAnterior": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/AC.51.021.2021/EG-bienvenida.jpeg",
+                "pdf": "",
+                "foco":true
+            }
+        },
+
+
+        {
+            "position": {
+                "x": 0,
+                "y": 1,
+                "z": 3.77
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 0
+            },
+            "scale": {
+                "x": 0.2000004,
+                "y": 1.75,
+                "z": 1.75
+            },
+            "info": {
+                "name": "posterPortada",
+                "image": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/Ac.51.015.2022/1erPuesto.png",
+                "imageAnterior": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/AC.51.021.2021/EG-bienvenida.jpeg",
+                "pdf": "",
+                "foco":false,
+                "color":"#FFD700"
+            }
+        },
+        {
+          "position": {
+              "x": -2.9,
+              "y": 1,
+              "z": 3.77
+          },
+          "rotation": {
+              "x": 0,
+              "y": 90,
+              "z": 0
+          },
+          "scale": {
+              "x": 0.2000004,
+              "y": 1.75,
+              "z": 1.75
+          },
+          "info": {
+              "name": "posterPortada",
+              "image": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/Ac.51.015.2022/2doPuesto.png",
+              "imageAnterior": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/AC.51.021.2021/EG-bienvenida.jpeg",
+              "pdf": "",
+              "foco":false,
+              "color":"#BEBEBE"
+          }
+      },
+      {
+          "position": {
+              "x": 2.9,
+              "y": 1,
+              "z": 3.77
+          },
+          "rotation": {
+              "x": 0,
+              "y": 90,
+              "z": 0
+          },
+          "scale": {
+              "x": 0.2000004,
+              "y": 1.75,
+              "z": 1.75
+          },
+          "info": {
+              "name": "posterPortada",
+              "image": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/Ac.51.015.2022/3erPuesto.png",
+              "imageAnterior": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/AC.51.021.2021/EG-bienvenida.jpeg",
+              "pdf": "",
+              "foco":false,
+              "color":"#CD7F32"
+          }
+      },
+
+        
+      {
+            "position": {
+                "x": -14.7,
+                "y": 2.5,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 0.2000004,
+                "y": 2.7204,
+                "z": 2.10722
+            },
+            "info": {
+                "name": "poster1",
+                "image": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/Ac.51.015.2022/Poster1.jpg",
+                "pdf": "",
+                "foco":true
+            }
+        },
+        {
+            "position": {
+                "x": -14.7,
+                "y": 2.5,
+                "z": 9
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 0.2000004,
+                "y": 2.7204,
+                "z": 2.10722
+            },
+            "info": {
+                "name": "poster2",
+                "image": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/Ac.51.015.2022/Poster2.png",
+                "pdf": "",
+                "foco":true
+            }
+        },
+          {
+              "position": {
+                  "x": -10.5,
+                  "y": 2.5,
+                  "z": 14.7
+              },
+              "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+              },
+              "scale": {
+                  "x": 0.2000004,
+                  "y": 2.7204,
+                  "z": 2.10722
+              },
+              "info": {
+                  "name": "poster3",
+                  "image": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/Ac.51.015.2022/Poster3.jpg",
+                  "pdf": "",
+                  "foco":true
+              }
+          },
+          {
+              "position": {
+                  "x": -3.5,
+                  "y": 2.5,
+                  "z": 14.7
+              },
+              "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+              },
+              "scale": {
+                  "x": 0.2000004,
+                  "y": 2.7204,
+                  "z": 2.10722
+              },
+              "info": {
+                  "name": "poster4",
+                  "image": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/Ac.51.015.2022/Poster4.jpg",
+                  "pdf": "",
+                  "foco":true
+              }
+          },
+          {
+              "position": {
+                  "x": 3.5,
+                  "y": 2.5,
+                  "z": 14.7
+              },
+              "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+              },
+              "scale": {
+                  "x": 0.2000004,
+                  "y": 2.7204,
+                  "z": 2.10722
+              },
+              "info": {
+                  "name": "poster5",
+                  "image": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/Ac.51.015.2022/Poster5.png",
+                  "pdf": "",
+                  "foco":true
+              }
+          },
+          {
+              "position": {
+                  "x": 10.5,
+                  "y": 2.5,
+                  "z": 14.7
+              },
+              "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 0
+              },
+              "scale": {
+                  "x": 0.2000004,
+                  "y": 2.7204,
+                  "z": 2.10722
+              },
+              "info": {
+                  "name": "poster6",
+                  "image": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/Ac.51.015.2022/Poster6.png",
+                  "pdf": "",
+                  "foco":true
+              }
+          },
+          {
+              "position": {
+                  "x": 14.7,
+                  "y": 2.5,
+                  "z": 9
+              },
+              "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+              },
+              "scale": {
+                  "x": 0.2000004,
+                  "y": 2.7204,
+                  "z": 2.10722
+              },
+              "info": {
+                  "name": "poster7",
+                  "image": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/Ac.51.015.2022/Poster7.png",
+                  "pdf": "",
+                  "foco":true
+              }
+          },
+          {
+              "position": {
+                  "x": 14.7,
+                  "y": 2.5,
+                  "z": 0
+              },
+              "rotation": {
+                  "x": 0,
+                  "y": 180,
+                  "z": 0
+              },
+              "scale": {
+                  "x": 0.2000004,
+                  "y": 2.7204,
+                  "z": 2.10722
+              },
+              "info": {
+                  "name": "poster8",
+                  "image": "https://contenidos.ulima.edu.pe/mv/ULimaExpo/images/Ac.51.015.2022/Poster8.png",
+                  "pdf": "",
+                  "foco":true
+              }
+          }
+      ],
+        "player": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": 1.6,
+                    "z": -7.75
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        ]
+    }
+      ]
+    }
+   ]
+}
