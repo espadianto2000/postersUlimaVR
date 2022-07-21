@@ -18,13 +18,13 @@ public class CameraControl : MonoBehaviour
 
 
 
-    [DllImport("__Internal")]
-    private static extern void OpenNewTab(string url);
+    /*[DllImport("__Internal")]
+    private static extern void OpenNewTab(string url);*/
 
-    public void openIt(string url)
+    /*public void openIt(string url)
     {
              OpenNewTab(url);
-    }
+    }*/
 
     private void Start()
     {
@@ -87,7 +87,7 @@ public class CameraControl : MonoBehaviour
                     URL = URL + obj[0] + ".html";
                     try
                     {
-                        openIt(URL);
+                        //openIt(URL);
                     }
                     catch
                     {
@@ -106,7 +106,7 @@ public class CameraControl : MonoBehaviour
                     string url = iconoZoom.GetComponentInChildren<Text>().text;
                     try
                     {
-                        openIt(url);
+                        //openIt(url);
                     }
                     catch
                     {

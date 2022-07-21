@@ -80,7 +80,7 @@ public class GameManager : MonoBehaviour
             }
         }
         _player.SetActive(false);
-        cam.SetActive(true);
+        cam.SetActive(false);
         loadingScreen.SetActive(true);
         //instructionsScreen.SetActive(true);
         StartCoroutine(GenerateScene());
@@ -255,7 +255,7 @@ public class GameManager : MonoBehaviour
 
 
 
-        StartCoroutine(GetAssetBundle(URLbundle, arrayModel));
+        //StartCoroutine(GetAssetBundle(URLbundle, arrayModel));
 
             
         
