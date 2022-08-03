@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1927c045052a06d49a9b21fdcaa26db6, type: 3}
   m_Name: OculusXRFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: OculusXR Feature
   version: 0.0.1
   featureIdInternal: com.oculus.openxr.feature.oculusxr
@@ -363,7 +363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1927c045052a06d49a9b21fdcaa26db6, type: 3}
   m_Name: OculusXRFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: OculusXR Feature
   version: 0.0.1
   featureIdInternal: com.oculus.openxr.feature.oculusxr
@@ -483,7 +483,6 @@ MonoBehaviour:
   - {fileID: -4978663078591983862}
   - {fileID: 1684812750842113812}
   - {fileID: -4770463246364609294}
-  - {fileID: 2290766905332733339}
   - {fileID: 4490100467471287043}
   m_renderMode: 1
   m_depthSubmissionMode: 0
@@ -650,7 +649,6 @@ MonoBehaviour:
   - {fileID: 8074167419193686319}
   - {fileID: 4975707502920905039}
   - {fileID: -8601638504781759625}
-  - {fileID: 995551678600632280}
   - {fileID: 3964680233645720951}
   - {fileID: -5251164295695090121}
   m_renderMode: 1
