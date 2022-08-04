@@ -6,11 +6,13 @@ public class tamanho : MonoBehaviour
 {
     Vector3 escInicial;
     Vector3 posInicial;
+    Quaternion rotationI;
     // Start is called before the first frame update
     void Start()
     {
         escInicial = transform.localScale;
         posInicial = transform.position;
+        rotationI = transform.rotation;
     }
 
     // Update is called once per frame
@@ -25,5 +27,6 @@ public class tamanho : MonoBehaviour
     {
         transform.localScale = escInicial;
         transform.position = posInicial;
+        transform.rotation = rotationI;
     }
 }
