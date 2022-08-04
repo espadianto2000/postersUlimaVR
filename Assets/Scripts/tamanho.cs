@@ -5,11 +5,12 @@ using UnityEngine;
 public class tamanho : MonoBehaviour
 {
     Vector3 escInicial;
+    Vector3 posInicial;
     // Start is called before the first frame update
     void Start()
     {
         escInicial = transform.localScale;
-
+        posInicial = transform.position;
     }
 
     // Update is called once per frame
@@ -23,5 +24,6 @@ public class tamanho : MonoBehaviour
     public void agrandar()
     {
         transform.localScale = escInicial;
+        transform.position = posInicial;
     }
 }
