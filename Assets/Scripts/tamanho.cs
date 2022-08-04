@@ -19,6 +19,11 @@ public class tamanho : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Vector3.Distance(transform.position,posInicial)>2.5f)
+        {
+            transform.GetComponent<Rigidbody>().useGravity = true;
+            //transform.GetComponent<Rigidbody>().isKinematic = true;
+        }
     }
     public void achicar()
     {
@@ -27,14 +32,16 @@ public class tamanho : MonoBehaviour
     }
     public void agrandar()
     {
-        transform.localScale = escInicial;
+        //transform.localScale = escInicial;
         //transform.position = posInicial;
         //transform.rotation = rotationI;
         foco.SetActive(true);
-        if(Vector3.Distance(transform.position, posInicial)<=5f)
+        if(Vector3.Distance(transform.position, posInicial)<=2.5f)
         {
             transform.position = posInicial;
             transform.rotation = rotationI;
+            transform.localScale = escInicial;
+            transform.GetComponent<Rigidbody>().useGravity = false;
             foco.SetActive(true);
         }
     }
