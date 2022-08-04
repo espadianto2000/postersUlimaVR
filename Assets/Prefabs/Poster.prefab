@@ -329,6 +329,7 @@ GameObject:
   - component: {fileID: 5398952255264655511}
   - component: {fileID: 2598535931195103177}
   - component: {fileID: 1330312943669434566}
+  - component: {fileID: 2225645050176726210}
   m_Layer: 0
   m_Name: Poster
   m_TagString: Untagged
@@ -475,10 +476,34 @@ MonoBehaviour:
       m_Calls: []
   m_HoverEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2225645050176726210}
+        m_TargetAssemblyTypeName: tamanho, Assembly-CSharp
+        m_MethodName: achicar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_HoverExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2225645050176726210}
+        m_TargetAssemblyTypeName: tamanho, Assembly-CSharp
+        m_MethodName: agrandar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstSelectEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -561,6 +586,18 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!114 &2225645050176726210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5105388808318347958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4a17adade3c41c98e8348a5e614b33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9060785163667374595
 GameObject:
   m_ObjectHideFlags: 0
