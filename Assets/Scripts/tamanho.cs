@@ -27,7 +27,7 @@ public class tamanho : MonoBehaviour
     }
     public void achicar()
     {
-        if(transform.localScale!=escInicial)
+        if(transform.localScale==escInicial)
         {
             transform.localScale = new Vector3(transform.localScale.x * 0.3f, transform.localScale.y * 0.3f, transform.localScale.z * 0.3f);
             foco.SetActive(false);
