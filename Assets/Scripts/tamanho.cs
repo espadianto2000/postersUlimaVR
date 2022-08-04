@@ -27,17 +27,25 @@ public class tamanho : MonoBehaviour
             transform.GetComponent<Rigidbody>().useGravity = true;
             transform.GetComponent<Rigidbody>().isKinematic = false;
             
-                transform.GetComponent<Renderer>().material.color = colorI;
+            transform.GetComponent<Renderer>().material.color = colorI;
 
             
 
         }
-        if (agarrado && !(Vector3.Distance(transform.position, posInicial) > 2.5f))
+        else 
         {
-            
-            
+
+            if (agarrado)
+            {
                 transform.GetComponent<Renderer>().material.color = Color.green;
-            
+
+            }
+            else
+            {
+                transform.GetComponent<Renderer>().material.color = colorI;
+
+            }
+
         }
         
 
