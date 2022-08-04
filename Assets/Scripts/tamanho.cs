@@ -8,13 +8,13 @@ public class tamanho : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        escInicial = transform.localScale;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        escInicial = transform.localScale;
     }
     public void achicar()
     {
