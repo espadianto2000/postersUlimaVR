@@ -7,6 +7,7 @@ public class tamanho : MonoBehaviour
     Vector3 escInicial;
     Vector3 posInicial;
     Quaternion rotationI;
+    public GameObject foco;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,11 +23,13 @@ public class tamanho : MonoBehaviour
     public void achicar()
     {
         transform.localScale = new Vector3(transform.localScale.x*0.3f, transform.localScale.y*0.3f,transform.localScale.z*0.3f);
+        foco.SetActive(false);
     }
     public void agrandar()
     {
         transform.localScale = escInicial;
         transform.position = posInicial;
         transform.rotation = rotationI;
+        foco.SetActive(true);
     }
 }
