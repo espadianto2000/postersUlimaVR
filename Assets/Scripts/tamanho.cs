@@ -28,8 +28,14 @@ public class tamanho : MonoBehaviour
     public void agrandar()
     {
         transform.localScale = escInicial;
-        transform.position = posInicial;
-        transform.rotation = rotationI;
+        //transform.position = posInicial;
+        //transform.rotation = rotationI;
         foco.SetActive(true);
+        if(Vector3.Distance(transform.position, posInicial)<=5f)
+        {
+            transform.position = posInicial;
+            transform.rotation = rotationI;
+            foco.SetActive(true);
+        }
     }
 }
