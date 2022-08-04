@@ -31,7 +31,7 @@ public class tamanho : MonoBehaviour
                 transform.GetComponent<Renderer>().material.color = Color.green;
             }
         }
-        transform.GetComponent<Material>().color = colorI;
+        transform.GetComponent<Renderer>().material.color = colorI;
 
 
     }
