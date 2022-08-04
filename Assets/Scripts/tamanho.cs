@@ -39,7 +39,7 @@ public class tamanho : MonoBehaviour
         //transform.localScale = escInicial;
         //transform.position = posInicial;
         //transform.rotation = rotationI;
-        foco.SetActive(true);
+        //foco.SetActive(true);
         if(Vector3.Distance(transform.position, posInicial)<=2.5f)
         {
             transform.position = posInicial;
