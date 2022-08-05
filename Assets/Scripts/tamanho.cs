@@ -52,6 +52,7 @@ public class tamanho : MonoBehaviour
     }
     public void achicar()
     {
+
         agarrado = true;
         if(transform.localScale==escInicial)
         {
