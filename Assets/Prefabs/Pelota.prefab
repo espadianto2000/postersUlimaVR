@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5433228971887879593}
   - component: {fileID: 5433228971887879598}
   - component: {fileID: 5890654891172595106}
+  - component: {fileID: 2652156179634104449}
   m_Layer: 8
   m_Name: Pelota
   m_TagString: Untagged
@@ -155,10 +156,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2652156179634104449}
+        m_TargetAssemblyTypeName: Pelota, Assembly-CSharp
+        m_MethodName: ocultar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2652156179634104449}
+        m_TargetAssemblyTypeName: Pelota, Assembly-CSharp
+        m_MethodName: mostrar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -229,3 +254,17 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!114 &2652156179634104449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5433228971887879599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c0ad61e33b4694a8437e25eb3b3751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manoI: {fileID: 0}
+  manoD: {fileID: 0}
