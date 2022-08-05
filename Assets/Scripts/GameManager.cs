@@ -18,6 +18,7 @@ using UnityEngine.Events;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public GameObject pelota;
 
 
     [Header("API")]
@@ -269,6 +270,7 @@ public class GameManager : MonoBehaviour
             cam.SetActive(false);
             _player.SetActive(true);
         }
+        Instantiate(pelota);
         
     }
     IEnumerator GenerateZoom(Vector3 pos, Vector3 rot, Vector3 sca, string url)
