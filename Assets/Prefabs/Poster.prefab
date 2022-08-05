@@ -300,8 +300,8 @@ GameObject:
   - component: {fileID: 5105388808318347960}
   - component: {fileID: 5398952255264655511}
   - component: {fileID: 2598535931195103177}
-  - component: {fileID: 1330312943669434566}
   - component: {fileID: 2225645050176726210}
+  - component: {fileID: 6920679549268128589}
   m_Layer: 8
   m_Name: Poster
   m_TagString: Untagged
@@ -419,7 +419,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1330312943669434566
+--- !u!114 &2225645050176726210
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -428,7 +428,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 5105388808318347958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f4a17adade3c41c98e8348a5e614b33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foco: {fileID: 1726907992898934218}
+  agarrado: 0
+  colorI: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &6920679549268128589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5105388808318347958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75cbaed9468784b8ea793f5601633a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -536,7 +551,7 @@ MonoBehaviour:
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
-  m_ThrowOnDetach: 0
+  m_ThrowOnDetach: 1
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
     serializedVersion: 2
@@ -558,21 +573,6 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
---- !u!114 &2225645050176726210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5105388808318347958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f4a17adade3c41c98e8348a5e614b33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foco: {fileID: 1726907992898934218}
-  agarrado: 0
-  colorI: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &9060785163667374595
 GameObject:
   m_ObjectHideFlags: 0
