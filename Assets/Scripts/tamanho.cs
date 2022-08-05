@@ -25,7 +25,7 @@ public class tamanho : MonoBehaviour
         if(Vector3.Distance(transform.position,posInicial)>2.5f)
         {
             transform.GetComponent<Rigidbody>().useGravity = true;
-            transform.GetComponent<Rigidbody>().isKinematic = false;
+            //transform.GetComponent<Rigidbody>().isKinematic = false;
             
             transform.GetComponent<Renderer>().material.color = colorI;
 
@@ -73,7 +73,7 @@ public class tamanho : MonoBehaviour
             transform.rotation = rotationI;
             transform.localScale = escInicial;
             transform.GetComponent<Rigidbody>().useGravity = false;
-            transform.GetComponent<Rigidbody>().isKinematic = true;
+       //     transform.GetComponent<Rigidbody>().isKinematic = true;
             foco.SetActive(true);
         }
     }
