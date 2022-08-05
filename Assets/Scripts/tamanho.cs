@@ -10,9 +10,13 @@ public class tamanho : MonoBehaviour
     public GameObject foco;
     public bool agarrado;
     public Color colorI;
+    public GameObject manoI;
+    public GameObject manoD;
     // Start is called before the first frame update
     void Start()
     {
+        manoI = GameObject.Find("Player").transform.GetChild(0).GetChild(1).GetChild(1).gameObject;
+        manoD = GameObject.Find("Player").transform.GetChild(0).GetChild(2).GetChild(1).gameObject;
         escInicial = transform.localScale;
         posInicial = transform.position;
         rotationI = transform.rotation;
@@ -52,7 +56,8 @@ public class tamanho : MonoBehaviour
     }
     public void achicar()
     {
-
+        manoI.SetActive(false);
+        manoD.SetActive(false);
         agarrado = true;
         if(transform.localScale==escInicial)
         {
@@ -63,6 +68,8 @@ public class tamanho : MonoBehaviour
     }
     public void agrandar()
     {
+        manoI.SetActive(true);
+        manoD.SetActive(true);
         agarrado = false;
         //transform.localScale = escInicial;
         //transform.position = posInicial;
